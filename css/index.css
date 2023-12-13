@@ -3798,7 +3798,7 @@ margin: 0;
     }
 }
 .bounceInDown {
-    animation: bounceInDown 1.5s ease both;
+    animation: bounceInDown 2s ease both;
 }
 @keyframes bounceInDown {
     0% {

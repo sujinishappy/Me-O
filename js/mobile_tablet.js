@@ -353,8 +353,8 @@ $(document).ready(function () {
     var $start = $(".tablet-flow .flows img");
     var documentHeight = $(document).height();
     var threshold = 0.53;
-    var threshold1 = 0.52;
-    //var threshold2 = 0.58;
+        var threshold1 = 0.52;
+        var threshold2 = 0.56;
 
     var currentIndex = 0;
 
@@ -376,10 +376,10 @@ $(document).ready(function () {
             addClassWithDelay();
         }
 
-        /*if (threshold2 <= scrollPosition / documentHeight) {
+        if (threshold2 <= scrollPosition / documentHeight) {
             $start.removeClass("bounceInDown");
             currentIndex = 0;
-        }*/
+        }
 
         if (threshold1 >= scrollPosition / documentHeight) {
             $start.removeClass("bounceInDown");
